@@ -1,0 +1,49 @@
+:root {
+  --base: #acd600;
+  --spacing: 3px;
+  --blur: 3px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #193549;
+  text-align: center;
+  line-height: 3rem;
+}
+
+header h2 {
+  color: #eee;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+  color: #eee;
+}
+
+input {
+  border: none;
+  height: 0.3rem;
+  width: 5rem;
+}
+
+input#base {
+  height: 1.7rem;
+  width: 3em;
+}
+
+img {
+  height: 50vh;
+  height: 40vw;
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+}
+
+.js {
+  color: var(--base);
+}
